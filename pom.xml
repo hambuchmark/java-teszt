@@ -57,6 +57,9 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
+	  <configuration>
+            <argLine>${jacoco.agent.argLine}</argLine>
+          </configuration>
           <version>2.22.1</version>
         </plugin>
         <plugin>
