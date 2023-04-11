@@ -95,21 +95,10 @@
               </execution>
               <execution>
                  <id>report</id>
-                 <phase>prepare-package</phase>
+                 <phase>package</phase>
                  <goals>
                     <goal>report</goal>
                  </goals>
-              </execution>
-              <execution>
-                 <id>post-unit-test</id>
-                 <phase>test</phase>
-                 <goals>
-                    <goal>report</goal>
-                 </goals>
-                 <configuration>
-                    <dataFile>target/jacoco.exec</dataFile>
-                    <outputDirectory>target/jacoco-ut</outputDirectory>
-                 </configuration>
               </execution>
            </executions>
            <configuration>
