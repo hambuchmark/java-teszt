@@ -6,7 +6,7 @@
 
   <groupId>app</groupId>
   <artifactId>Java-Hello-World</artifactId>
-  <version>1.2</version>
+  <version>1.2-SNAPSHOT</version>
 
   <name>Java-Hello-World</name>
 
