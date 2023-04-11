@@ -48,13 +48,14 @@ public class AppTest {
 
         // Define expected output
         String expectedOutput = "Hello, World!\n" +
-                "Enter the first number : " +
+                "\nEnter the first number : " +
                 "Enter the second number : " +
                 "List of prime numbers between 1 and 10\n" +
                 "2\n" +
                 "3\n" +
                 "5\n" +
                 "7";
+
 
         // Check if actual output matches expected output
         assertEquals(expectedOutput, actualOutput);
