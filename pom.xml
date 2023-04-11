@@ -101,11 +101,6 @@
                  </goals>
               </execution>
            </executions>
-           <configuration>
-              <systemPropertyVariables>
-                 <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-              </systemPropertyVariables>
-           </configuration>
         </plugin>      
 	<plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
